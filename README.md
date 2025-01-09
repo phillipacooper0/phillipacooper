@@ -1,6 +1,3 @@
-# Welcome!! 
-This repository is to house the code for the website https://phillipacooper0.github.io/phillipacooper/
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
