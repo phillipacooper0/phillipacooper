@@ -1,33 +1,27 @@
+image: node:16
+
 stages:
   - build
-  - deploy
 
-# This job installs dependencies, builds the project, and creates a build directory
+before_script:
+  - npm install
+
 build:
   stage: build
-  image: node:16  # or any other image suitable for your project
   script:
-    - npm install  # or your build tool like yarn or others
-    - npm run build # or the build command for your project
+    - npm run build
   artifacts:
     paths:
-      - dist/  # specify the directory where the build files are generated
-
-# This job deploys the build files to the gh-pages branch
-deploy:
-  stage: deploy
-  image: node:16  # Make sure the image has git installed
-  script:
-    - git clone --single-branch --branch gh-pages https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.com/username/repository.git deploy
-    - rm -rf deploy/*
-    - cp -r dist/* deploy/  # copy the build files to the deploy folder
-    - cd deploy
-    - git config user.name "GitLab CI/CD"
-    - git config user.email "ci@example.com"
-    - git add .
-    - git commit -m "Deploy build to gh-pages"
-    - git push origin gh-pages  # push to gh-pages branch
+      - build
   only:
-    - main  # or your default branch
-  dependencies:
-    - build
+    - main  # Change to the branch you want to deploy
+
+pages:
+  stage: deploy
+  script:
+    - mv build public  # GitLab Pages serves the 'public' directory
+  artifacts:
+    paths:
+      - public
+  only:
+    - main  # Change to the branch you want to deploy
