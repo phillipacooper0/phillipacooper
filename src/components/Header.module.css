@@ -1,20 +1,24 @@
 
 .header {
 	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
-	background-color: #123;
+	font-family: 'Playfair Display';
+	background-color: black;
 	color: white;
-  }
+	height: 15vh;
+	display:flex;
+	align-items: center;
+	text-align: center;   
+	justify-content: flex-start;	
+}
+
+.header div {
+	float: left;
+	margin-right: 35vw;  /* Adds some space between the image and h1 */
+	width: 15vh;
+	height: 15vh;
+}
   
-  
-  .main-heading{
-	max-width: 800px;
-	text-align: center;
-	margin: auto;
-  }
-  
-  
-  .main-heading h1{
-	font-size: 50px;
-  }
-  
+.header h1 {
+	margin: 0;
+	position: relative;
+}
