@@ -1,8 +1,12 @@
-import { render, screen } from '@testing-library/react';
+import { getAllByDisplayValue, getByRole, getByText, render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
 });
+
+test('Header text renders when app renders', () => {
+  render(<App/>)
+  const header = screen.getByText(/Phillipa Cooper/)
+  expect(header).toBeInTheDocument()
+})

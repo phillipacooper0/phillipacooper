@@ -8,6 +8,7 @@ In the project directory, you can run:
 
 ### `npm run deploy`
 Builds and then deploys the current iteration of the local code to the product website specified above. 
+This does not(yet) get automatically added to production website on main branch push.
 
 ### `npm start`
 

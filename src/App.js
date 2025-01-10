@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import CustomHeader from "../src/components/Header"
 
 function App() {
   return (
     <div className="App">
+        <CustomHeader></CustomHeader>
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
