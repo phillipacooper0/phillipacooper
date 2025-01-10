@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/phillipacooper/static/css/main.819eb4c6.css",
-    "main.js": "/phillipacooper/static/js/main.5a8a39c0.js",
+    "main.css": "/phillipacooper/static/css/main.78de9f2a.css",
+    "main.js": "/phillipacooper/static/js/main.e8a0a85c.js",
     "static/js/488.c697d625.chunk.js": "/phillipacooper/static/js/488.c697d625.chunk.js",
     "static/media/logo.svg": "/phillipacooper/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/phillipacooper/index.html",
-    "main.819eb4c6.css.map": "/phillipacooper/static/css/main.819eb4c6.css.map",
-    "main.5a8a39c0.js.map": "/phillipacooper/static/js/main.5a8a39c0.js.map",
+    "main.78de9f2a.css.map": "/phillipacooper/static/css/main.78de9f2a.css.map",
+    "main.e8a0a85c.js.map": "/phillipacooper/static/js/main.e8a0a85c.js.map",
     "488.c697d625.chunk.js.map": "/phillipacooper/static/js/488.c697d625.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.819eb4c6.css",
-    "static/js/main.5a8a39c0.js"
+    "static/css/main.78de9f2a.css",
+    "static/js/main.e8a0a85c.js"
   ]
 }
