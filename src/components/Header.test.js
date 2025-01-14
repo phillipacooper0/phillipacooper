@@ -6,3 +6,8 @@ test("Header renders successfully", () => {
     const element = screen.getByText(/Phillipa Cooper/);
     expect(element).toBeInTheDocument();
 })
+test("Duck walking gif renders successfully", () => {
+    render(<CustomHeader/>)
+    const element = screen.getByText(/Duck Walking GIF/);
+    expect(element).toBeInTheDocument();
+})
