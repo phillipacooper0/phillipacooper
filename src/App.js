@@ -7,6 +7,7 @@ import HomePage from './pages/HomePage'
 import WorkExperience from './pages/WorkExperience';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+
 function App() {
   return (
     <BrowserRouter>

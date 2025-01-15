@@ -18,26 +18,27 @@
 
 .header div {
 	float: left;
-	margin-right: 35vw;  /* Adds some space between the image and h1 */
+	margin-right: 25vw;  /* Adds some space between the image and h1 */
 	width: 15vh;
 	height: 15vh;
 	flex-shrink: 0;                 /* Prevent image from shrinking */
 }
 
 .header a {
-	list-style-type: none;
-	margin-left: 12%;
 	font-family: 'Playfair Display';
 	text-decoration: none;
-    font-weight: normal;
+	font-size: 10vh;
 	text-emphasis-color: none;
 	color: inherit;
 }
 
-
-.header div2 {
-	float: left;
-	width: 15vh;
-	height: 15vh;
-	align-items: center;
+.header a1 {
+	list-style-type: none;
+	margin-left: 12%;
+	font-family: 'Playfair Display';
+	text-decoration: none;
+	font-size: 3vh;
+    font-weight: normal;
+	text-emphasis-color: none;
+	color: inherit;
 }
