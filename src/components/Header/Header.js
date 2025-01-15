@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './Header.module.css'
 import { motion } from "framer-motion";
-import video1 from "./ripple.gif"
 
 const CustomHeader = () => {
     return (

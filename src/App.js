@@ -1,26 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-import CustomHeader from "../src/components/Header"
+import CustomHeader from "./components/Header/Header"
+import CollapsedExcerpt from './components/CollapsedExcerpt/CollapsedExcerpt';
 
 function App() {
   return (
     <div className="App">
-        <CustomHeader></CustomHeader>
-
-      <header className="App-header">
+        <CustomHeader className="App-header"></CustomHeader>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-      </header>
+      </header> */}
+      <CollapsedExcerpt></CollapsedExcerpt>
     </div>
   );
 }

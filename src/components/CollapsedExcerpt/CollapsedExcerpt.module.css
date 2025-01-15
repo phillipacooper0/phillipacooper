@@ -1,0 +1,23 @@
+.collapsable {
+    background-color: #F5F5F5;
+    font-family: 'Playfair Display';
+    border-color: black;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+}
+.collapsable button {
+    font-family: 'Playfair Display';
+    background-color: #F5F5F5;
+    width: 100%;
+    text-align: left;
+    border:none;
+    font-size: 2.5vh;
+}
+
+.collapsable p {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    font-size: 2vh;
+}
