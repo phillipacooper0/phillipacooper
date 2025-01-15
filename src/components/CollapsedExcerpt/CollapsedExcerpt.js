@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import styles from './CollapsedExcerpt.module.css'
 
-const CollapsedExcerpt = () => {
+const CollapsedExcerpt = ({title, content}) => {
   // State to manage the visibility of the content
   const [isOpen, setIsOpen] = useState(false);
 
@@ -11,10 +11,10 @@ const CollapsedExcerpt = () => {
     return (
         <div className={styles.collapsable}>
             <button onClick={toggleContent}>
-                Some CollapsibleExcerptsText ↓
+                {title} ↓
             </button>
             {isOpen && (
-                   <p> This is some expanded content </p>
+                   <p> {content} </p>
                 )
 }
         </div>

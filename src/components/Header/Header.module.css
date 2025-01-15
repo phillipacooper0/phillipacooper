@@ -23,3 +23,21 @@
 	height: 15vh;
 	flex-shrink: 0;                 /* Prevent image from shrinking */
 }
+
+.header a {
+	list-style-type: none;
+	margin-left: 12%;
+	font-family: 'Playfair Display';
+	text-decoration: none;
+    font-weight: normal;
+	text-emphasis-color: none;
+	color: inherit;
+}
+
+
+.header div2 {
+	float: left;
+	width: 15vh;
+	height: 15vh;
+	align-items: center;
+}

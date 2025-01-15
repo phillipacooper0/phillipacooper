@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  /* background-color: #F5F5F5; */
 }
 
 .App-logo {
@@ -14,21 +15,21 @@
 }
 
 .App-header {
-  background-color: #F5F5F5;
-  min-height: 100vh;
+  font-family: 'Playfair Display';
+  /* background-color: #F5F5F5; */
+  height: 5vmin;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
+  vertical-align: center;
   font-size: calc(10px + 2vmin);
-  color: blue;
 }
 
 .App-collapsible {
   justify-content: center;
   min-height: 1000vh;
   flex-direction: column;
-
 }
 
 .App-link {
