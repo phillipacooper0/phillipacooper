@@ -5,9 +5,16 @@ import { MemoryRouter as Router } from 'react-router-dom';
 
 test("Header renders successfully", () => {
     render(<Router><CustomHeader/></Router>)
-    const element = screen.getByText(/Phillipa Cooper/);
+    const element = screen.getByTitle(/header/);
     expect(element).toBeInTheDocument();
 })
+
+test("Header contains Phillipa Cooper as text", () => {
+    render(<Router><CustomHeader/></Router>)
+    const homePage = screen.getByText(/Phillipa Cooper/)
+    expect(homePage).toBeTruthy();
+})
+
 test("Duck walking gif renders successfully", () => {
     render(<Router><CustomHeader/></Router>)
     const element = screen.getByAltText(/walking duck/);
@@ -18,4 +25,10 @@ test("Header contains NavBar component", () => {
     render(<Router><CustomHeader/></Router>)
     const homePage = screen.getByText(/Home Page/)
     expect(homePage).toBeTruthy();
+})
+
+test("Header contains href to /", () => {
+    render(<Router><CustomHeader/></Router>)
+    const homePage = screen.getByText(/Phillipa Cooper/)
+    expect(homePage).toHaveAttribute('href', '/')
 })
