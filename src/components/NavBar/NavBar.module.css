@@ -1,0 +1,32 @@
+.navbar {
+	margin: 0;
+	font-family: 'Playfair Display';
+	background-color: black;
+	color: white;
+	height: 15vh;
+	display:flex;	
+	align-items: center;
+	text-align: center;   
+	position: relative; 
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+.navbarLink {
+	margin-left: 6.5lh;
+	font-family: 'Playfair Display';
+	font-size: 3vh;
+	color: inherit;
+	display: inline-block;
+}
+  
+.navbarLinkActive {
+	margin-left: 6.4lh;
+    border: 7vh solid #86afe1;
+	border-bottom: 0.2vh;
+	border-width: 0.1lh;
+	border-top: 0.2vh;
+	border-color: white;
+}
