@@ -32,3 +32,15 @@ test("Header contains href to /", () => {
     const homePage = screen.getByText(/Phillipa Cooper/)
     expect(homePage).toHaveAttribute('href', '/')
 })
+
+test("Header contains img for linkedIn", () => {
+    render(<Router><CustomHeader/></Router>)
+    const image = screen.getByAltText(/linkedIn logo/)
+    expect(image).toBeInTheDocument()
+})
+
+test("Header contains img for github", () => {
+    render(<Router><CustomHeader/></Router>)
+    const image = screen.getByAltText(/github logo/)
+    expect(image).toBeInTheDocument()
+})

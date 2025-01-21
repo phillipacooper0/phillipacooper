@@ -1,5 +1,7 @@
 .header {
 	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
 	font-family: 'Playfair Display';
 	background-color: black;
 	color: white;
@@ -7,32 +9,43 @@
 	display:flex;
 	align-items: center;
 	text-align: center;   
-	justify-content: flex-start;	
+	justify-content: center;	
 	position: relative; 
 	top: 0;
-	left: 0;
 	width: 100%;
 	z-index: 1000; /* Ensure the header stays on top of other content */
 	box-shadow: 0 4px 2px -2px gray; /* Optional: Adds shadow effect */
 }
 
-.header div {
-	float: left;
-	margin-right: 25vw;  /* Adds some space between the image and h1 */
-	width: 15vh;
-	height: 15vh;
-	flex-shrink: 0;                 /* Prevent image from shrinking */
-}
-
 .header a {
 	font-family: 'Playfair Display';
+	flex-shrink: 0;                 /* Prevent shrinking */
+	float: center;	
 	text-decoration: none;
 	font-size: 10vh;
 	text-emphasis-color: none;
 	color: inherit;
+	justify-content: center;
+	position: absolute;
 }
 
-.header img {
-	height: 15vh;
-	margin-right: 25lh;
+.image1{
+	height:15vh;
+	margin-right:auto;
+	flex-shrink: 0;                 
+	float: left;	
+}
+.div2 {
+	float:left;
+	right:10lh;
+	margin-right: 1lh;
+	margin-left: auto;
+	flex-shrink: 0;
+}
+
+.image2 {
+	align-items: right;
+	margin-top: 2vh;
+	margin-left: 2lh;
+	height: 2vh;
 }
