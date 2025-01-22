@@ -8,6 +8,16 @@ import githubLogo from './github.png'
 
 
 const CustomHeader = () => {
+
+  const redirectToLinkedIn = () =>{
+    window.location.href = "http://www.linkedin.com/in/phillipa-cooper-72095a136/";
+  }
+
+  const redirectToGithub = () => {
+    window.location.href = "https://github.com/phillipacooper0";
+  }
+
+
     return (
     <motion.header
     initial={{ opacity: 0, y: -50 }}
@@ -19,10 +29,14 @@ const CustomHeader = () => {
       <img className={styles.image1}src={logo} alt="walking duck" />
       <a href='/'>Phillipa Cooper</a>
     <div2 className={styles.div2}>
-        <img className={styles.image2} src={linkedInLogo} alt="linkedIn logo"/>
-        <img className={styles.image2} src={githubLogo} alt="github logo"/> 
+        <div2 style={{cursor: 'pointer'}} onClick={redirectToLinkedIn}> 
+          <img className={styles.image2} src={linkedInLogo} alt="linkedIn logo"/>
+        </div2> 
+        <div2 style={{cursor: 'pointer'}} onClick={redirectToGithub}>
+          <img className={styles.image2} src={githubLogo} alt="github logo"/> 
+        </div2>
       </div2>
-    </div>
+    </div>  
       <NavBar/>
     </motion.header>
     )

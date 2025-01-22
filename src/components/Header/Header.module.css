@@ -17,6 +17,10 @@
 	box-shadow: 0 4px 2px -2px gray; /* Optional: Adds shadow effect */
 }
 
+.header a1 {
+	color: inherit;
+}
+
 .header a {
 	font-family: 'Playfair Display';
 	flex-shrink: 0;                 /* Prevent shrinking */
@@ -27,6 +31,10 @@
 	color: inherit;
 	justify-content: center;
 	position: absolute;
+}
+.header button {
+	background-color: inherit;
+	box-shadow: none;
 }
 
 .image1{
