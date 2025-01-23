@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/phillipacooper/static/css/main.a6372912.css",
-    "main.js": "/phillipacooper/static/js/main.02b4fead.js",
+    "main.css": "/phillipacooper/static/css/main.4b448161.css",
+    "main.js": "/phillipacooper/static/js/main.ac404a19.js",
     "static/js/488.c697d625.chunk.js": "/phillipacooper/static/js/488.c697d625.chunk.js",
     "static/media/happy-duck.gif": "/phillipacooper/static/media/happy-duck.3fb26d9b3c3c823ae786.gif",
     "static/media/github.png": "/phillipacooper/static/media/github.6149aa5ccbc036755594.png",
     "static/media/logo.svg": "/phillipacooper/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/phillipacooper/index.html",
-    "main.a6372912.css.map": "/phillipacooper/static/css/main.a6372912.css.map",
-    "main.02b4fead.js.map": "/phillipacooper/static/js/main.02b4fead.js.map",
+    "main.4b448161.css.map": "/phillipacooper/static/css/main.4b448161.css.map",
+    "main.ac404a19.js.map": "/phillipacooper/static/js/main.ac404a19.js.map",
     "488.c697d625.chunk.js.map": "/phillipacooper/static/js/488.c697d625.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6372912.css",
-    "static/js/main.02b4fead.js"
+    "static/css/main.4b448161.css",
+    "static/js/main.ac404a19.js"
   ]
 }
