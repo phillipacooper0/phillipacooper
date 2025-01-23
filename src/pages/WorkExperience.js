@@ -1,7 +1,8 @@
+import styles from './background.module.css'
 
 const WorkExperience = () => {
     return (
-        <div>Some wall of text</div>
+        <div className={styles.standard}>Some wall of text</div>
     )
 }
 export default WorkExperience;

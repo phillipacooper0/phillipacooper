@@ -1,7 +1,10 @@
+import styles from './background.module.css'
+
+
 
 const Contact = () => {
     return (
-        <div>Some wall of text</div>
+        <div className={styles.standard}>Some wall of text</div>
     )
 }
 export default Contact;

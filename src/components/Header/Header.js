@@ -27,7 +27,7 @@ const CustomHeader = () => {
       >  
     <div className={styles.header}>
       <img className={styles.image1}src={logo} alt="walking duck" />
-      <a href='/'>Phillipa Cooper</a>
+      <a href='/phillipacooper'>Phillipa Cooper</a>
     <div2 className={styles.div2}>
         <div2 style={{cursor: 'pointer'}} onClick={redirectToLinkedIn}> 
           <img className={styles.image2} src={linkedInLogo} alt="linkedIn logo"/>
