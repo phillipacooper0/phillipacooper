@@ -1,0 +1,9 @@
+.standard {
+    background-color: aliceblue;
+    width: 80%;
+    flex-direction: column;
+    overflow: auto;
+    flex-grow: 1;
+    justify-content: center;
+    margin: auto;
+}
