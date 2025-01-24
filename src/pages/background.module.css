@@ -1,9 +1,38 @@
 .standard {
-    background-color: aliceblue;
+    background-color: white;
+    font-family: 'Playfair Display';
     width: 80%;
     flex-direction: column;
     overflow: auto;
     flex-grow: 1;
     justify-content: center;
     margin: auto;
+}
+
+.standard .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 1%;
+}
+
+.standard .container img{
+    border-radius: 50%;
+    object-fit: cover;
+    height:50vh;
+    width: 50vh;
+}
+
+.standard .container p{
+    justify-content: left;
+    font-size:xx-small;
+    justify-self: left;
+}
+
+.standard .container h8{
+    justify-content: left;
+    justify-self: left;
+    font-size:xx-small;
+    text-underline-offset: 10;
 }
