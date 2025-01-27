@@ -14,7 +14,7 @@ const CollapsedExcerpt = ({title, content}) => {
                 {title} ↓
             </button>
             {isOpen && (
-                   <p> {content} </p>
+                   <p> {content.dates} </p>
                 )
 }
         </div>

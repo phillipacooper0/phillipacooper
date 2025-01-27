@@ -1,7 +1,7 @@
 import CollapsedExcerpt from '../components/CollapsedExcerpt/CollapsedExcerpt';
-import svoc from '../content/svoc.json'
-import myaccount from '../content/myaccount.json'
-import nssot from '../content/nssot.json'
+import svoc from '../content/projects_svoc.json'
+import myaccount from '../content/projects_myaccount.json'
+import nssot from '../content/projects_nssot.json'
 import styles from './background.module.css'
 
 

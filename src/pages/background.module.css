@@ -1,12 +1,16 @@
 .standard {
     background-color: white;
+    border-width: 3vw;
+    border-color: lightblue;
+    border-style: solid;
     font-family: 'Playfair Display';
     width: 80%;
-    flex-direction: column;
     overflow: auto;
     flex-grow: 1;
     justify-content: center;
+    align-items: center;
     margin: auto;
+
 }
 
 .standard .container {
