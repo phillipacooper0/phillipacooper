@@ -1,3 +1,54 @@
 {
-    "content": "This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series).This article is about the puppet characters and the related media franchise. For the 2011 film, see The Muppets (2011 film). For the 2015 television series, see The Muppets (TV series)."
+    "summary": "Inquisitive, dedicated developer with a diverse experience and demonstrated ability to produce results and thrive in projects for external and internal customers. Focus is on clean and clever code with an emphasis on TDD and an analytical approach to tasks that always leads to quick and reliable features and fixes. She has a passion for learning, a love for tricky tasks and a keenness to constantly improve herself and her work.",
+    "education": [
+        {
+            "name": "Bachelor of Engineering (Honours), Diploma in Professional Engineering Practice",
+            "year": "2015-2020",
+            "place": "University of Technology, Sydney"
+        },
+        {
+            "name": "Cisco Certified Network Associate",
+            "year": "2022",
+            "place": "Pearson VUE"
+        },
+        {
+            "name": "Agile SAFe",
+            "year": "2021",
+            "place": "Scaled Agile"
+        }
+    ],
+    "languages": [
+        "GoLang",
+        "Kotlin/Springboot",
+        "C++",
+        "ReactJS",
+        "CSS"
+    ],
+    "infrastructure": [
+        "AWS", 
+        "Terraform",
+        "Docker", 
+        "Helm",
+        "k8 Clusters",
+        "Kubernetes"
+    ],
+    "databases": [
+        "MongoDB",
+        "Redis",
+        "Neo4j"
+    ],
+    "other": [
+        "Git",
+        "REST",
+        "CI/CD",
+        "Design Patterns",
+        "CLI"
+    ],
+    "nonTechnical": [
+        "TDD",
+        "Pairing",
+        "Agile/Scrum",
+        "Facilitating Code Katas",
+        "Mentoring"
+    ]
 }

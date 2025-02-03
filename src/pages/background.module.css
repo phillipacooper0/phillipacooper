@@ -13,7 +13,7 @@
 
 }
 
-.standard .container {
+.standard .containerbytwo {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -21,22 +21,122 @@
     padding: 1%;
 }
 
-.standard .container img{
+.standard .containerbythree {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: top;
+    justify-items: left;
+    padding: 1%;
+}
+
+.standard .containerbythreecentered {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    align-items: stretch;
+    gap: 5px;
+    padding: 20px;
+  }
+  
+ .standard .containerbythree .card {
+    padding: 10px;
+    margin-bottom: 10vh;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    height: 30vh;
+    width: 7lh;
+  }
+
+  .centeredcolumncard {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+
+  .columncard {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 7lh;
+    margin-bottom: 3vh;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-left: 1lh;
+    margin-right: 1lh;
+  }
+
+
+
+ 
+  .bold {
+    font-weight: bold;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+  .standard .containerbythreecentered .card > p {
+    margin: 0
+  }
+  
+  
+.standard .containerbytwo img{
     border-radius: 50%;
     object-fit: cover;
     height:50vh;
     width: 50vh;
 }
 
-.standard .container p{
+.standard .containerbytwo p{
     justify-content: left;
     font-size:xx-small;
     justify-self: left;
 }
 
-.standard .container h8{
+.standard .containerbytwo h8{
     justify-content: left;
     justify-self: left;
     font-size:xx-small;
     text-underline-offset: 10;
+}
+
+.standard p{
+    justify-content: left;
+    font-size:xx-small;
+    justify-self: left;
+    margin-left: 1lh;
+}
+
+.standard li{
+    justify-content: left;
+    font-size:xx-small;
+}
+
+.standard  h8{
+    margin-left: 1lh;
+    justify-content: left;
+    justify-self: left;
+    font-size:xx-small;
+    text-underline-offset: 10;
+}
+
+.standard  h5{
+    margin-left: 0.5lh;
+    justify-content: left;
+    justify-self: left;
+    margin-bottom: 5vh;
 }
