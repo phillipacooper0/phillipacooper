@@ -102,34 +102,34 @@
 
 .standard .containerbytwo p{
     justify-content: left;
-    font-size:xx-small;
+    font-size:xmedium;
     justify-self: left;
 }
 
 .standard .containerbytwo h8{
     justify-content: left;
     justify-self: left;
-    font-size:xx-small;
+    font-size:xmedium;
     text-underline-offset: 10;
 }
 
 .standard p{
     justify-content: left;
-    font-size:xx-small;
+    font-size:xmedium;
     justify-self: left;
     margin-left: 1lh;
 }
 
 .standard li{
     justify-content: left;
-    font-size:xx-small;
+    font-size:xmedium;
 }
 
 .standard  h8{
     margin-left: 1lh;
     justify-content: left;
     justify-self: left;
-    font-size:xx-small;
+    font-size:xmedium;
     text-underline-offset: 10;
 }
 
