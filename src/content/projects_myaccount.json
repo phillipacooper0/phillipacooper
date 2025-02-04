@@ -1,10 +1,18 @@
 {
     "title": "MyAccount Dashboard", 
     "content": {
-        "dates": "this is the content for this project",
-        "organisation": "organisation",
-        "frameworks": "frameworks",
-        "outcomes": "outcomes",      
+        "dates": "2023-present",
+        "organisation": "Service NSW",
+        "skills": [
+            "GoLang",
+            "NextJS",
+            "AWS",
+            "GitLab",
+            "MongoDB",
+            "Redis"
+        ],
+        "outcomes": "outcomes",
+        "responsibilities": "some respon",      
         "description": "descr"
           
     }

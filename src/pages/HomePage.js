@@ -12,19 +12,19 @@ const HomePage = () => {
                     </img>
                     <div>
                         <div className={styles.containerbytwo}>
-                            <h8>Name:</h8>
+                            <h8 className={styles.bold}>Name:</h8>
                             <p>{homePage.name}</p>
                         </div>
                         <div className={styles.containerbytwo}>
-                            <h8>Current Role:</h8>
+                            <h8 className={styles.bold}>Current Role:</h8>
                             <p>{homePage.currentRole}</p>
                         </div>
                         <div className={styles.containerbytwo}>
-                            <h8 >Current Workplace:</h8>
+                            <h8 className={styles.bold}>Current Workplace:</h8>
                             <p>{homePage.currentWorkplace}</p>
                         </div>
                         <div className={styles.containerbytwo}>
-                            <h8 >Currently Upskilling:</h8>
+                            <h8 className={styles.bold}>Currently Upskilling:</h8>
                             <p>{homePage.currentUpskilling}</p>
                         </div>      
                     </div>

@@ -11,12 +11,34 @@
     width: 100%;
     text-align: left;
     border:none;
-    font-size: 2.5vh;
+    font-size: x-small;
+    padding-bottom: 2%;
 }
 
 .collapsable p {
-    padding: 10px;
     margin-top: 5px;
+    font-size: xx-small;
+}
+
+.collapsable div {
+    width: 95%;
+    margin: auto;
     border: 1px solid #ddd;
-    font-size: 2vh;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    justify-content: center;
+}
+
+.collapsable div1 {
+    font-size: x-small;
+    font-weight: bold;
+    margin-left: 1lh;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
 }

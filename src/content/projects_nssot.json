@@ -1,10 +1,15 @@
 {
     "title": "NSSOT", 
     "content": {
-        "dates": "this is the content for this project",
-        "organisation": "organisation",
-        "frameworks": "frameworks",
+        "dates": "2020-2022",
+        "organisation": "Cisco Systems Ltd",
+        "skills": [
+            "GoLang",
+            "ReactJS",
+            "Regex"
+        ],
         "outcomes": "outcomes",      
+        "responsibilities": "some respon",
         "description": "descr"
     }
 }
