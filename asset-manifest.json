@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/phillipacooper/static/css/main.de4d510c.css",
-    "main.js": "/phillipacooper/static/js/main.5ce1fba1.js",
+    "main.css": "/phillipacooper/static/css/main.74cbd485.css",
+    "main.js": "/phillipacooper/static/js/main.29550ced.js",
     "static/js/488.c697d625.chunk.js": "/phillipacooper/static/js/488.c697d625.chunk.js",
     "static/media/profilepicture.jpg": "/phillipacooper/static/media/profilepicture.45c50aaecf6ac05fb79b.jpg",
     "static/media/happy-duck.gif": "/phillipacooper/static/media/happy-duck.3fb26d9b3c3c823ae786.gif",
     "static/media/github.png": "/phillipacooper/static/media/github.6149aa5ccbc036755594.png",
     "static/media/logo.svg": "/phillipacooper/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/phillipacooper/index.html",
-    "main.de4d510c.css.map": "/phillipacooper/static/css/main.de4d510c.css.map",
-    "main.5ce1fba1.js.map": "/phillipacooper/static/js/main.5ce1fba1.js.map",
+    "main.74cbd485.css.map": "/phillipacooper/static/css/main.74cbd485.css.map",
+    "main.29550ced.js.map": "/phillipacooper/static/js/main.29550ced.js.map",
     "488.c697d625.chunk.js.map": "/phillipacooper/static/js/488.c697d625.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de4d510c.css",
-    "static/js/main.5ce1fba1.js"
+    "static/css/main.74cbd485.css",
+    "static/js/main.29550ced.js"
   ]
 }
