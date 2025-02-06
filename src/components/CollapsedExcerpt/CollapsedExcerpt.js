@@ -6,11 +6,17 @@ const CollapsedExcerpt = ({title, content}) => {
   const [isOpen, setIsOpen] = useState(false);
   const [skills, setSkills] = useState([])
   const [responsibilities, setResponsibilities] = useState([])
+  const [outcomes, setOutcomes] = useState([])
 
 
   useEffect(()=>{
     setSkills(content.skills)
   })
+
+  useEffect(()=>{
+    setOutcomes(content.outcomes)
+  })
+
   useEffect(()=>{
     setResponsibilities(content.responsibilities)
   })
@@ -34,16 +40,28 @@ const CollapsedExcerpt = ({title, content}) => {
                       <div1>Description</div1>
                       <p>{content.description}</p>
                       <div1>Key Responsibilities</div1>
-                      <p>{responsibilities}</p>
-                      <div1>Outcomes</div1>
-                      <p>{content.outcomes}</p>
-                      <div1>Skills Used</div1>
                       <ul>
-                        {
-                            skills.map((item) => 
-                                <li>{item}</li>
-                            )
-                        }
+                          {
+                              responsibilities.map((item) => 
+                                  <li>{item}</li>
+                              )
+                          }
+                        </ul>  
+                      <div1>Outcomes</div1>
+                        <ul>
+                            {
+                                outcomes.map((item) => 
+                                    <li>{item}</li>
+                                )
+                            }
+                        </ul>  
+                      <div1>Skills Used</div1>
+                        <ul>
+                          {
+                              skills.map((item) => 
+                                  <li>{item}</li>
+                              )
+                          }
                         </ul>  
                    </div>
                 )

@@ -8,8 +8,15 @@
             "ReactJS",
             "Regex"
         ],
-        "outcomes": "outcomes",      
-        "responsibilities": "some respon",
-        "description": "descr"
+        "outcomes": [
+            "Increased internal network visibility and reduced time taken to diagnose system issues",
+            "Reduced time taken to update network information into the database and dashboards"
+        ],      
+        "responsibilities": [
+            "Developed new and existing dashboards for consumption by internal stakeholders",
+            "Created regexes to pattern match and feed into the Neo4j database",
+            "Developed concurrent solution to parse network information into the Neo4j database"
+        ],
+        "description": "The NSSOT project was designed to increase internal network visibility within Cisco and inform engineers of almost real-time network changes. This involves a series of dashboards, a relational database and a GoLang backend that regularly fetched information from network devices."
     }
 }

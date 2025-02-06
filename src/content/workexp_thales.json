@@ -1,0 +1,13 @@
+{
+    "title": "Thales Group",
+    "content": {
+        "role":"Systems Integration Intern",
+        "dates": "January 2019 - December 2019",
+        "stack": "C++",
+        "key_responsibilities": [
+            "Integrated a new simulation into the existing simulation environment",
+            "Collected real world specifications from external stakeholders"
+        ]
+    }
+
+}

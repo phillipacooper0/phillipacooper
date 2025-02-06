@@ -8,7 +8,7 @@ const HomePage = () => {
     return (
             <div className={styles.standard}>
                 <div className={styles.containerbytwo}>
-                    <img src={profilePicture}>
+                    <img className={styles.roundimage}src={profilePicture}>
                     </img>
                     <div>
                         <div className={styles.containerbytwo}>

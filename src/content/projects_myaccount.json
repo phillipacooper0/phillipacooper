@@ -11,8 +11,20 @@
             "MongoDB",
             "Redis"
         ],
-        "outcomes": "outcomes",
-        "responsibilities": "some respon",      
+        "outcomes": [
+            "Integrated new feature into existing environment that has since serviced over 70,000 customers",
+            "Improved test coverage over multiple repositories",
+            "Increased knowledge of GoLang within team from nil to proficient for all team members using TDD",
+            "Transitioned backend microservice to Adapter pattern, simplifying the code base, reducing repeated code and improving the test coverage"
+        ],
+        "responsibilities": [
+            "Developing and maintaining software for business critical (crown jewel) systems, servicing nearly 10 million customers",
+            "Developing and maintaining APIs for both support and feature production as per stakeholder requirements",
+            "Facilitating code katas to improve the teams overall backend language skills, tackle new feature development and improve ways of working",
+            "Facilitating scrum ceremonies",
+            "Configuring CI/CD pipelines for new and existing microservices",
+            "Writing unit, integration and end to end tests"
+        ],      
         "description": "descr"
           
     }

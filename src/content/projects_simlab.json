@@ -1,0 +1,24 @@
+{
+    "title": "Simulation Lab", 
+    "content": {
+        "dates": "January 2019-December 2019",
+        "organisation": "Thales Group",
+        "skills": [
+            "C++",
+            "Internal publish/subscribe system"
+        ],
+        "outcomes": [
+            "Commenced work on new simulation",
+            "Successful handover to successive intern"
+        ],
+        "responsibilities": [
+            "Integrated new simulation into the existing simulation ecosystem",
+            "Maintained existing simulations and simulation environment",
+            "Collected real world data and transformed into the simulation environment",
+            "Showcased projects to technical and non-tecehnical stakeholders"
+    
+        ],      
+        "description": "My one year undergraduate internship with Thales Group enabled me to have hands on experience with a complex legacy production system. The simulations were developed in C++ and involved exchanges between both the user, the environment and other users participating in the simulation."
+          
+    }
+}

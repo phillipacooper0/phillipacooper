@@ -1,0 +1,13 @@
+{
+    "title": "Cisco Systems",
+    "content" :{
+        "role":"Site Reliability Engineer",
+        "dates": "June 2020 - July 2022",
+        "stack": "GoLang, ReactJS, Neo4j",
+        "key_responsibilities": [
+            "Developing backend code to service the relational database and frontend dashboards",
+            "Developing and maintaing frontend code to visualise network changes"
+        ]
+    }
+
+}

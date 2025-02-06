@@ -1,0 +1,13 @@
+{
+    "title": "Service NSW",
+    "content" : {
+        "role":"Associate Software Engineer",
+        "dates": "September 2023 - present",
+        "stack": "GoLang, NextJS, Kotlin/Springboot, AWS",
+        "key_responsibilities": [
+            "Developing, testing and maintaining a legacy system that services over 10 million customers",
+            "Developing the software, tests and infrastructure for a Greenfields project"
+        ]
+    }
+
+}

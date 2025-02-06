@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import aboutme from '../content/aboutme.json'
 import styles from './background.module.css'
-import { data } from 'framer-motion/client';
 
 
 const AboutMe = () => {

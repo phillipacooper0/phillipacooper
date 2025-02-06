@@ -9,9 +9,18 @@
             "Kafka",
             "Helm"
         ],
-        "outcomes": "outcomes",    
-        "responsibilities": "some respon",  
-        "description": "descr"
+        "outcomes": [
+            "Completed development of base template feature Kafka and Kotlin Springboot including integration, architecture and unit tests",
+            "Completed AWS infrastructure terraform for starter template",
+            "Developed all microservices in hexagonal architecture"
+        ],    
+        "responsibilities": [
+            "Created five new microservices in Kotlin Springboot for Greenfields project (recommendations engine)",
+            "Created Kafka pipeline to handle event streaming",
+            "Developed AWS infrastructure using terraform for starter template that since serviced five new microservices",
+            "Implemented docker containers to improve test coverage"
+        ],  
+        "description": "The SVoC recommendations engine was a Greenfields projects designed at providing accurate customer recommendations without the use of Personally Identifiable Information."
           
     }
 }
