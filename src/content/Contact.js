@@ -1,4 +1,4 @@
-import styles from './background.module.css'
+import styles from '../styles/background.module.css'
 import content from '../content/contact.json'
 import linkedInLogo from './linkedin.png'
 import githubLogo from './github.png'
@@ -17,8 +17,8 @@ const Contact = () => {
 
     return (
         <div className={styles.standard}>
-            <p>{content.email}</p>
-            <p>{content.location}</p>
+            <p className={globalStyles.p}>{content.email}</p>
+            <p className={globalStyles.p}>{content.location}</p>
             <img className={styles.image2} src={linkedInLogo} alt="linkedIn logo"/>
             <img className={styles.image2} src={githubLogo} alt="github logo"/> 
 

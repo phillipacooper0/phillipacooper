@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import styles from './CollapsedExcerpt.module.css'
+import globalStyles from '../../styles/standard.module.css'
+
 
 const CollapsedExcerpt = ({title, content}) => {
   // State to manage the visibility of the content
@@ -30,15 +32,15 @@ const CollapsedExcerpt = ({title, content}) => {
 
     return (
         <div className={styles.collapsable}>
-            <button className={styles.bold} onClick={toggleContent}>
+            <button className={globalStyles.bold} onClick={toggleContent}>
                 {title} ↓
             </button>
             {isOpen && (
                   <div>
-                      <p className={styles.bold}>{content.organisation}</p>
-                      <p className={styles.italic}> {content.dates} </p>
+                      <p className={globalStyles.bold}>{content.organisation}</p>
+                      <p className={globalStyles.italic}> {content.dates} </p>
                       <div1>Description</div1>
-                      <p>{content.description}</p>
+                      <p className={globalStyles.p}>{content.description}</p>
                       <div1>Key Responsibilities</div1>
                       <ul>
                           {

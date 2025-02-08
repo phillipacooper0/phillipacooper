@@ -1,0 +1,58 @@
+.gridbytwocentered {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 1%;
+}
+
+.gridbytwoleft {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  padding: 1%;
+  margin:auto;
+}
+
+.gridbythreecentered {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    align-items: stretch;
+    gap: 1%;
+    margin-left: 1lh;
+    margin-right: 1lh;
+}
+
+.gridbythreeleft {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: top;
+    justify-items: left;
+    margin-left: 1lh;
+    margin-right: 1lh;
+}
+
+
+.gridbythree .card {
+    padding: 10px;
+    margin-bottom: 10vh;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    height: 30vh;
+    width: 7lh;
+}
+
+.gridcard {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 75%;
+    margin-bottom: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+

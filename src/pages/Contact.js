@@ -1,8 +1,9 @@
-import styles from './background.module.css'
+import styles from '../styles/background.module.css'
 import content from '../content/contact.json'
 import linkedInLogo from '../content/linkedin.png'
 import githubLogo from '../content/github.png'
-
+import gridStyles from '../styles/grid.module.css'
+import globalStyles from '../styles/standard.module.css'
 
 const Contact = () => {
 
@@ -17,17 +18,17 @@ const Contact = () => {
 
     return (
         <div className={styles.standard}>
-            <div className={styles.containerbytwo}>
+            <div className={gridStyles.gridbytwocentered}>
                 <div1>Email</div1>
-                <p>{content.email}</p>
+                <p className={globalStyles.p}>{content.email}</p>
             </div>
-            <div className={styles.containerbytwo}>
+            <div className={gridStyles.gridbytwocentered}>
                 <div1>Location</div1>
-                <p>{content.location}</p>
+                <p className={globalStyles.p}>{content.location}</p>
             </div>
-            <div className={styles.containerbytwo}>
+            <div className={gridStyles.gridbytwocentered}>
                 <div1>Socials</div1>
-                <div className={styles.containerbytwoleft}>
+                <div className={gridStyles.gridbytwoleft}>
                     <div2 className={styles.div2} style={{cursor: 'pointer'}} onClick={redirectToLinkedIn}> 
                         <img className={styles.rectangularimage} src={linkedInLogo} alt="linkedIn logo"/>
                     </div2>

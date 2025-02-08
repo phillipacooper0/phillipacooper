@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import aboutme from '../content/aboutme.json'
-import styles from './background.module.css'
+import styles from '../styles/background.module.css'
+import globalStyles from '../styles/standard.module.css'
+import cardStyles from '../styles/card.module.css'
+import gridStyles from '../styles/grid.module.css'
 
 
 const AboutMe = () => {
@@ -35,20 +38,20 @@ const AboutMe = () => {
     return (
         <div className={styles.standard}> 
             <h5>Summary</h5>
-            <p className={styles.card}>{aboutme.summary}</p>
+            <p className={cardStyles.card}>{aboutme.summary}</p>
             <h5>Education</h5>
-            <div className={styles.containerbythreecentered}> 
+            <div className={gridStyles.gridbythreecentered}> 
                 {education.map(item => 
-                    <div className={styles.centeredcolumncard}>
-                        <p className={styles.bold}>{item.name}</p>
-                        <p className={styles.italic}>{item.year}</p>
-                        <p>{item.place}</p> 
+                    <div className={gridStyles.gridcard}>
+                        <p className={globalStyles.bold}>{item.name}</p>
+                        <p className={globalStyles.italic}>{item.year}</p>
+                        <p className={globalStyles.p}>{item.place}</p> 
                     </div>
                 )}
             </div>         
             <h5>Proficiencies</h5>
-            <div className={styles.containerbythree}>
-                <div className={styles.columncard}>
+            <div className={gridStyles.gridbythreeleft}>
+                <div className={gridStyles.gridcard}>
                     <h8>Languages:</h8>
                         <ul>
                         {
@@ -58,7 +61,7 @@ const AboutMe = () => {
                         }
                         </ul>              
                 </div>
-                <div className={styles.columncard}>
+                <div className={gridStyles.gridcard}>
                     <h8>Infrastructure:</h8>
                         <ul>
                         {
@@ -68,7 +71,7 @@ const AboutMe = () => {
                         }
                         </ul>              
                 </div>
-                <div className={styles.columncard}>
+                <div className={gridStyles.gridcard}>
                     <h8>Databases:</h8>
                         <ul>
                         {
@@ -78,7 +81,7 @@ const AboutMe = () => {
                         }
                         </ul>              
                 </div>
-                <div className={styles.columncard}>
+                <div className={gridStyles.gridcard}>
                     <h8>Non Technical:</h8>
                         <ul>
                         {
@@ -88,7 +91,7 @@ const AboutMe = () => {
                         }
                         </ul>              
                 </div>
-                <div className={styles.columncard}>
+                <div className={gridStyles.gridcard}>
                     <h8>Other:</h8>
                         <ul>
                         {

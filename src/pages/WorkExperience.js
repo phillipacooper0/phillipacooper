@@ -2,7 +2,7 @@ import snsw from '../content/workexp_snsw.json'
 import cisco from '../content/workexp_cisco.json'
 import thales from '../content/workexp_thales.json'
 import WorkExperienceCard from '../components/Card/WorkExperienceCard';
-import styles from './background.module.css'
+import styles from '../styles/background.module.css'
 
 
 const WorkExperience = () => {

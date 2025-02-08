@@ -20,29 +20,7 @@
     padding: 1%;
 }
 
-.standard .containerbythree {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: top;
-    justify-items: left;
-    padding: 1%;
-}
-
-.standard .containerbytwoleft {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-  padding: 1%;
-}
-
-.standard .containerbythreecentered {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    align-items: stretch;
-    gap: 5px;
-    padding: 20px;
-  }
-  
+ 
  .standard .containerbythree .card {
     padding: 10px;
     margin-bottom: 10vh;
@@ -61,57 +39,10 @@
     border-radius: 8px;
     background-color: #f9f9f9;
   }
-
-  .columncard {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    width: 7lh;
-    margin-bottom: 3vh;
-  }
-
-  .card {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    margin-left: 1lh;      
-    margin-right: 1lh;
-  }
-
-
-  .bold {
-    font-weight: bold;
-    font-size: medium;
-  }
-
-  .italic {
-    font-style: italic;
-  }
-
   .standard .containerbythreecentered .card > p {
     margin: 0
   }
   
-  
-.standard .containerbytwo .roundimage{
-    border-radius: 50%;
-    object-fit: cover;
-    height:50vh;
-    width: 50vh;
-}
-
-.standard .containerbytwo p{
-    justify-content: left;
-    font-size:medium;
-    justify-self: left;
-}
-
 .standard .containerbytwo h8{
     justify-content: left;
     justify-self: left;
@@ -119,23 +50,16 @@
     text-underline-offset: 10;
 }
 
-.standard p{
-    justify-content: left;
-    font-size:xmedium;
-    justify-self: left;
-    margin-left: 1lh;
-}
-
 .standard li{
     justify-content: left;
-    font-size:xmedium;
+    font-size:medium;
 }
 
 .standard  h8{
     margin-left: 1lh;
     justify-content: left;
     justify-self: left;
-    font-size:xmedium;
+    font-size:medium;
     text-underline-offset: 10;
 }
 

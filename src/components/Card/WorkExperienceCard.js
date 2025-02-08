@@ -1,5 +1,8 @@
 import React, {useState, useEffect} from 'react';
-import globalStyles from '../../pages/background.module.css'
+import styles from '../../styles/background.module.css'
+import globalStyles from '../../styles/standard.module.css'
+import cardStyles from '../../styles/card.module.css'
+
 
 const WorkExperienceCard = ({title, content}) => {
     const [responsibilities, setResponsibilities] = useState([])
@@ -10,10 +13,10 @@ const WorkExperienceCard = ({title, content}) => {
 
 
     return (
-        <div className={globalStyles.card}>
+        <div className={cardStyles.card}>
             <h5 className={globalStyles.bold}>{title}</h5>
-            <p className={globalStyles.italic}>{content.dates}</p>
-            <p>{content.role}</p>
+            <p className={styles.italic}>{content.dates}</p>
+            <p className={globalStyles.p}>{content.role}</p>
             <ul>
                 {
                     responsibilities.map((item) => 
