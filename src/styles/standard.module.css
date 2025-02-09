@@ -29,10 +29,27 @@
     width: 50vh;
 }
 
+.standard .rectangularimage {
+	align-items: left;
+  justify-content: left;
+	margin-top: 2vh;
+	margin-left: 2lh;
+	height: 2vh;
+}
 
-.p{
+
+.standard p{
     justify-content: left;
     font-size:medium;
     justify-self: left;
     margin-left: 1lh;
+}
+
+.standard h8{
+    margin-left: 1lh;
+    justify-content: left;
+    justify-self: left;
+    font-size:medium;
+    text-underline-offset: 10;
+    font-weight: bold;
 }

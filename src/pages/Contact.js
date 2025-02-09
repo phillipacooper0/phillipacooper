@@ -17,23 +17,23 @@ const Contact = () => {
     
 
     return (
-        <div className={styles.standard}>
+        <div className={globalStyles.standard}>
             <div className={gridStyles.gridbytwocentered}>
                 <div1>Email</div1>
-                <p className={globalStyles.p}>{content.email}</p>
+                <p>{content.email}</p>
             </div>
             <div className={gridStyles.gridbytwocentered}>
                 <div1>Location</div1>
-                <p className={globalStyles.p}>{content.location}</p>
+                <p>{content.location}</p>
             </div>
             <div className={gridStyles.gridbytwocentered}>
                 <div1>Socials</div1>
                 <div className={gridStyles.gridbytwoleft}>
                     <div2 className={styles.div2} style={{cursor: 'pointer'}} onClick={redirectToLinkedIn}> 
-                        <img className={styles.rectangularimage} src={linkedInLogo} alt="linkedIn logo"/>
+                        <img className={globalStyles.rectangularimage} src={linkedInLogo} alt="linkedIn logo"/>
                     </div2>
                     <div2 className={styles.div2} style={{cursor: 'pointer'}} onClick={redirectToGithub}> 
-                        <img className={styles.rectangularimage} src={githubLogo} alt="github logo"/> 
+                        <img className={globalStyles.rectangularimage} src={githubLogo} alt="github logo"/> 
                     </div2>
                 </div>
             </div>

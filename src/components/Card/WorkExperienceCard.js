@@ -15,7 +15,7 @@ const WorkExperienceCard = ({title, content}) => {
     return (
         <div className={cardStyles.card}>
             <h5 className={globalStyles.bold}>{title}</h5>
-            <p className={styles.italic}>{content.dates}</p>
+            <p className={globalStyles.italic}>{content.dates}</p>
             <p className={globalStyles.p}>{content.role}</p>
             <ul>
                 {

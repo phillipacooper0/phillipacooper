@@ -42,14 +42,6 @@
   .standard .containerbythreecentered .card > p {
     margin: 0
   }
-  
-.standard .containerbytwo h8{
-    justify-content: left;
-    justify-self: left;
-    font-size:medium;
-    text-underline-offset: 10;
-}
-
 .standard li{
     justify-content: left;
     font-size:medium;
