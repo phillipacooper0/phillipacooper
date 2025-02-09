@@ -25,7 +25,7 @@
             "Configuring CI/CD pipelines for new and existing microservices",
             "Writing unit, integration and end to end tests"
         ],      
-        "description": "descr"
+        "description": "The 25 microservices that comprise the MyAccount dashboard are built using NextJS and GoLang and service over 10 million customers. The primary work on this project is feature development - primarily new services -, maintaining and uplifting the code bases and creating and optimising tests."
           
     }
 }
