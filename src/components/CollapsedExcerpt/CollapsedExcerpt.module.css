@@ -35,6 +35,13 @@
     margin-left: 1lh;
 }
 
+.collapsable p{
+    justify-content: left;
+    font-size:medium;
+    justify-self: left;
+    margin-left: 1lh;
+}
+
 .bold {
     font-weight: bold;
 }

@@ -1,4 +1,3 @@
-import styles from '../styles/background.module.css'
 import content from '../content/contact.json'
 import linkedInLogo from '../content/linkedin.png'
 import githubLogo from '../content/github.png'
@@ -29,12 +28,12 @@ const Contact = () => {
             <div className={gridStyles.gridbytwocentered}>
                 <div1>Socials</div1>
                 <div className={gridStyles.gridbytwoleft}>
-                    <div2 className={styles.div2} style={{cursor: 'pointer'}} onClick={redirectToLinkedIn}> 
+                    <div style={{cursor: 'pointer'}} onClick={redirectToLinkedIn}> 
                         <img className={globalStyles.rectangularimage} src={linkedInLogo} alt="linkedIn logo"/>
-                    </div2>
-                    <div2 className={styles.div2} style={{cursor: 'pointer'}} onClick={redirectToGithub}> 
+                    </div>
+                    <div style={{cursor: 'pointer'}} onClick={redirectToGithub}> 
                         <img className={globalStyles.rectangularimage} src={githubLogo} alt="github logo"/> 
-                    </div2>
+                    </div>
                 </div>
             </div>
         </div>

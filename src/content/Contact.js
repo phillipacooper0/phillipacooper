@@ -1,4 +1,4 @@
-import styles from '../styles/background.module.css'
+import globalStyles from '../globalStyles/standard.module.css'
 import content from '../content/contact.json'
 import linkedInLogo from './linkedin.png'
 import githubLogo from './github.png'
@@ -16,11 +16,11 @@ const Contact = () => {
     
 
     return (
-        <div className={styles.standard}>
-            <p className={globalStyles.p}>{content.email}</p>
-            <p className={globalStyles.p}>{content.location}</p>
-            <img className={styles.image2} src={linkedInLogo} alt="linkedIn logo"/>
-            <img className={styles.image2} src={githubLogo} alt="github logo"/> 
+        <div className={globalStyles.standard}>
+            <p className={globalglobalStyles.p}>{content.email}</p>
+            <p className={globalglobalStyles.p}>{content.location}</p>
+            <img className={globalStyles.image2} src={linkedInLogo} alt="linkedIn logo"/>
+            <img className={globalStyles.image2} src={githubLogo} alt="github logo"/> 
 
         </div>
     )

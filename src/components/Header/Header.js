@@ -7,6 +7,7 @@ import linkedInLogo from './linkedin.png'
 import githubLogo from './github.png'
 
 
+
 const CustomHeader = () => {
 
   const redirectToLinkedIn = () =>{

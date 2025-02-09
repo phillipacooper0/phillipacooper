@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import styles from '../../styles/background.module.css'
 import globalStyles from '../../styles/standard.module.css'
 import cardStyles from '../../styles/card.module.css'
 

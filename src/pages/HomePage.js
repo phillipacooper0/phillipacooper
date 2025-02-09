@@ -1,7 +1,6 @@
 import React from 'react';
 import homePage from '../content/homepage.json'
 import profilePicture from '../content/profilepicture.jpg'
-import styles from '../styles/background.module.css'
 import globalStyles from '../styles/standard.module.css'
 import gridStyles from '../styles/grid.module.css'
 

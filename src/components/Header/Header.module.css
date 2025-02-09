@@ -43,10 +43,11 @@
 	flex-shrink: 0;                 
 	float: left;	
 }
+
 .div2 {
 	float:left;
-	right:10lh;
-	margin-right: 1lh;
+	right:1lh;
+	margin-right: 5lh;
 	margin-left: auto;
 	flex-shrink: 0;
 }

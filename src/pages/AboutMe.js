@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import aboutme from '../content/aboutme.json'
-import styles from '../styles/background.module.css'
 import globalStyles from '../styles/standard.module.css'
 import cardStyles from '../styles/card.module.css'
 import gridStyles from '../styles/grid.module.css'

@@ -40,7 +40,7 @@ const CollapsedExcerpt = ({title, content}) => {
                       <p className={globalStyles.bold}>{content.organisation}</p>
                       <p className={globalStyles.italic}> {content.dates} </p>
                       <div1>Description</div1>
-                      <p className={globalStyles.p}>{content.description}</p>
+                      <p>{content.description}</p>
                       <div1>Key Responsibilities</div1>
                       <ul>
                           {

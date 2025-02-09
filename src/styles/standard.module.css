@@ -61,3 +61,14 @@
     margin-bottom: 5vh;
     font-size: medium;
 }
+
+.standard div1 {
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 1lh;
+}
+
+.standard li{
+    justify-content: left;
+    font-size:medium;
+}
