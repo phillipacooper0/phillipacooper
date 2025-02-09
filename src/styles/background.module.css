@@ -55,12 +55,6 @@
     text-underline-offset: 10;
 }
 
-.standard  h5{
-    margin-left: 0.5lh;
-    justify-content: left;
-    justify-self: left;
-    margin-bottom: 5vh;
-}
 
 .standard div1 {
   font-size: medium;
@@ -75,14 +69,4 @@
 	margin-right: 1lh;
 	margin-left: auto;
 	flex-shrink: 0;
-}
-
-
-
-.standard .rectangularimage {
-	align-items: left;
-  justify-content: left;
-	margin-top: 2vh;
-	margin-left: 2lh;
-	height: 2vh;
 }

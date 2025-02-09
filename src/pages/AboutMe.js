@@ -36,7 +36,7 @@ const AboutMe = () => {
 
 
     return (
-        <div className={styles.standard}> 
+        <div className={globalStyles.standard}> 
             <h5>Summary</h5>
             <p className={cardStyles.card}>{aboutme.summary}</p>
             <h5>Education</h5>

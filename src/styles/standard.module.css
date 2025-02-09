@@ -22,7 +22,7 @@
     font-style: italic;
 }
 
-.roundimage{
+.standard .roundimage{
     border-radius: 50%;
     object-fit: cover;
     height:50vh;
@@ -52,4 +52,12 @@
     font-size:medium;
     text-underline-offset: 10;
     font-weight: bold;
+}
+
+.standard  h5{
+    margin-left: 0.5lh;
+    justify-content: left;
+    justify-self: left;
+    margin-bottom: 5vh;
+    font-size: medium;
 }
