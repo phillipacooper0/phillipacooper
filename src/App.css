@@ -26,7 +26,6 @@ html, body {
   align-items: left;
   justify-content: left;
   vertical-align: center;
-  font-size: calc(10px + 2vmin);
 }
 
 .App-collapsible {

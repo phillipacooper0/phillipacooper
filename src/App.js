@@ -15,10 +15,10 @@ function App() {
         <CustomHeader className="App-header"></CustomHeader>
       <Routes>  
         <Route path="/phillipacooper" element={<HomePage />} />
-        <Route path="/about" element={<AboutMe />} />
-        <Route path="/workexperience" element={<WorkExperience />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contacts" element={<Contact />} />
+        <Route path="/phillipacooper/about" element={<AboutMe />} />
+        <Route path="/phillipacooper/workexperience" element={<WorkExperience />} />
+        <Route path="/phillipacooper/projects" element={<Projects />} />
+        <Route path="/phillipacooper/contacts" element={<Contact />} />
       </Routes>
     </div>
     </BrowserRouter>
