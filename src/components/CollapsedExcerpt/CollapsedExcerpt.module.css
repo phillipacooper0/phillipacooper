@@ -2,7 +2,7 @@
     background-color: #F5F5F5;
     font-family: 'Playfair Display';
     border-color: black;
-    padding: 10px;
+    padding: 2%;
     text-align: left;
 }
 .collapsable button {
@@ -16,7 +16,6 @@
 }
 
 .collapsable p {
-    margin-top: 5px;
     font-size: medium;
 }
 
@@ -24,7 +23,7 @@
     width: 95%;
     margin: auto;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 2%;
     background-color: #f9f9f9;
     justify-content: center;
 }
