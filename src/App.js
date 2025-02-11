@@ -14,11 +14,11 @@ function App() {
     <div className="App">
         <CustomHeader className="App-header"></CustomHeader>
       <Routes>  
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutMe />} />
-        <Route path="/workexperience" element={<WorkExperience />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contacts" element={<Contact />} />
+        <Route path="/#/" element={<HomePage />} />
+        <Route path="/#/about" element={<AboutMe />} />
+        <Route path="/#/workexperience" element={<WorkExperience />} />
+        <Route path="/#/projects" element={<Projects />} />
+        <Route path="/#/contacts" element={<Contact />} />
       </Routes>
     </div>
     </HashRouter>
