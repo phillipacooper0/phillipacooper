@@ -13,7 +13,6 @@
 	position: relative; 
 	top: 0;
 	width: 100%;
-	z-index: 1000; 
 }
 
 .header a1 {
@@ -22,11 +21,9 @@
 
 .header a {
 	font-family: 'Playfair Display';
-	flex-shrink: 0;                 /* Prevent shrinking */
 	float: center;	
 	text-decoration: none;
-	font-size: 10vh;
-	text-emphasis-color: none;
+	font-size: 4rem;
 	color: inherit;
 	justify-content: center;
 	position: absolute;
@@ -37,7 +34,7 @@
 }
 
 .image1{
-	height:15vh;
+	height:5rem;
 	margin-right:auto;
 	flex-shrink: 0;                 
 	float: left;	
@@ -56,4 +53,41 @@
 	margin-top: 2vh;
 	margin-left: 2lh;
 	height: 2vh;
+}
+
+
+@media(max-width: 1000px) {
+	.header {
+		margin: 0;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: 'Playfair Display';
+		background-color: black;
+		color: white;
+		height: 15vh;
+		display:flex;
+		align-items: center;
+		text-align: center;   
+		justify-content: center;	
+		position: relative; 
+		top: 0;
+		width: 100%;
+	}
+
+	.header a {
+		font-family: 'Playfair Display';
+		float: center;	
+		text-decoration: none;
+		font-size: 2.5rem;
+		color: inherit;
+		justify-content: center;
+		position: absolute;
+	}
+
+	.image1{
+		height:3rem;
+		margin-right:auto;
+		flex-shrink: 0;                 
+		float: left;	
+	}
 }
