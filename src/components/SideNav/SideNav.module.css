@@ -1,0 +1,50 @@
+.navbar {
+  position: fixed; 
+  top: 10vh; 
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  transform: translateY(-10000%);
+  display:flex;
+  z-index: 999;
+}
+
+.navbar.open {
+  transform: translateY(0); /* Move the navbar into view */
+}
+
+.navbar ul {
+  list-style-type: none;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  right: 0;
+  height: 50vh;
+  width: 100%;
+  background:black;
+}
+
+.navbar ul li {
+  margin: 15px 0; /* Add vertical spacing between list items */
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 15px 0; /* Add vertical spacing between list items */
+  display: block; /* Ensure each link takes up the full width of the container */
+  text-align: center; /* Center-align the text */
+  padding: 10px 0; /* Add some padding around the links */
+  transition: color 0.2s;
+}
+
