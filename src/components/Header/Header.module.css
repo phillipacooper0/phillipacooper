@@ -14,6 +14,9 @@
 	top: 0;
 	width: 100%;
 }
+.mobileDisplay{
+	display: none;
+}
 
 .header a1 {
 	color: inherit;
@@ -55,8 +58,7 @@
 	height: 2vh;
 }
 
-
-@media(max-width: 1000px) {
+@media(max-width: 800px) {
 	.header {
 		margin: 0;
 		margin-left: auto;
@@ -74,11 +76,15 @@
 		width: 100%;
 	}
 
+	.webDisplay{
+		display: none;
+	}
+
 	.header a {
 		font-family: 'Playfair Display';
 		float: center;	
 		text-decoration: none;
-		font-size: 2.5rem;
+		font-size: 2rem;
 		color: inherit;
 		justify-content: center;
 		position: absolute;
@@ -89,5 +95,10 @@
 		margin-right:auto;
 		flex-shrink: 0;                 
 		float: left;	
+	}
+	.hamburger{
+		position: absolute;
+		right: 2%;
+		cursor: pointer;
 	}
 }
