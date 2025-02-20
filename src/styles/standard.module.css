@@ -72,3 +72,28 @@
     justify-content: left;
     font-size:medium;
 }
+
+
+@media(max-width: 800px) {
+    .standard {
+        background-color: white;
+        border-width: 5vw;
+        border-color: lightblue;
+        border-style: solid;
+        font-family: 'Playfair Display';
+        width: 65%;
+        overflow: auto;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .standard .roundimage{
+        border-radius: 50%;
+        object-fit: cover;
+        height:30vh;
+        width: 30vh;
+    }
+
+}

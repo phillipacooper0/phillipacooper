@@ -56,3 +56,13 @@
     margin-right: auto;
   }
 
+
+  @media(max-width: 800px) {
+    .gridbytwocentered {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-items: center;
+        padding: 1%;
+    }
+  }
