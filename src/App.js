@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import CustomHeader from "./components/Header/Header"
 import { HashRouter, Route, Routes } from 'react-router-dom';

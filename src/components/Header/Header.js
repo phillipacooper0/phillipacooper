@@ -23,7 +23,6 @@ const CustomHeader = () => {
         <div>
             {isMobile && <MobileDisplay/>} 
             {!isMobile && <WebDisplay/>} 
-
         </div>
     )
 }
