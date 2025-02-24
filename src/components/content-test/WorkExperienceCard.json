@@ -1,0 +1,12 @@
+{
+    "title": "Example Title",
+    "content" : {
+        "role":"Example Role",
+        "dates": "Example Dates",
+        "stack": "Example Stack",
+        "key_responsibilities": [
+            "Responsibility One",
+            "Responsibility Two"
+        ]
+    }
+}
