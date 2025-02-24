@@ -11,7 +11,7 @@ const MobileDisplay = () => {
     const handleClick = () => {
         setIsClicked(!isClicked)
     }
-    const Hamburger =<IoIosMenu size="30px" className={styles.hamburger} onClick={handleClick}/>
+    const Hamburger =<IoIosMenu size="30px" className={styles.hamburger} onClick={handleClick} role="menu" aria-label="hamburger"/>
     const handleLinkClicked = () => {
       setIsClicked(false);
     }
@@ -42,7 +42,7 @@ const MobileDisplay = () => {
         <img className={styles.image1}src={logo} alt="walking duck" />
         <a href='/phillipacooper'>Phillipa Cooper</a>
         {Hamburger}
-        { <SideNav isClicked={isClicked} closeSideBar={handleLinkClicked}/>}
+        { <SideNav isClicked={isClicked} closeSideBar={handleLinkClicked} role="navigation" title="hamburger-navigation" aria-label="dropdown-navigation"/>}
       </div>  
         
       </motion.header>
