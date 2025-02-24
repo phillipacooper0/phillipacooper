@@ -65,4 +65,31 @@
         justify-items: center;
         padding: 1%;
     }
+
+    .gridbythreecentered {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        align-items: stretch;
+        margin: auto;
+    }
+
+    .gridbythreeleft {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: stretch;
+        justify-items: left;
+        margin: auto;
+    }
+    .gridcard {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        border-radius: 5%;
+        background-color: #f9f9f9;
+        width: 75%;
+      }
+      .gridcard p {
+        margin: 1vh;
+      }
+
   }
