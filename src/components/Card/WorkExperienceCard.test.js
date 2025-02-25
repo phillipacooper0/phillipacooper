@@ -1,7 +1,7 @@
 import {render, screen } from '@testing-library/react';
 import WorkExperienceCard from './WorkExperienceCard'
 import { MemoryRouter as Router } from 'react-router-dom'; 
-import exampleContent from '../content-test/WorkExperienceCard'
+import exampleContent from '../../content-test/WorkExperienceCard'
 
 test("WorkExperienceCard renders title successfully", () => {
     render(<WorkExperienceCard title={exampleContent.title} content={exampleContent.content}/>)

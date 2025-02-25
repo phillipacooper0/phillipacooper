@@ -5,7 +5,7 @@ import { MemoryRouter as Router } from 'react-router-dom';
 
 test("NavBar renders successfully", () => {
     render(<Router><NavBar/></Router>)
-    const element = screen.getByTitle(/navbar/);
+    const element = screen.getByRole(/navigation/);
     expect(element).toBeTruthy();
 })
 
@@ -41,25 +41,25 @@ test("NavBar contains Contacts Option", () => {
 
 test("NavBar HomePage contains href to /", () => {
     const screen = render(<Router><NavBar/></Router>)
-    expect(screen.getByRole('link', { name: 'Home Page' })).toHaveAttribute('href', '/')
+    expect(screen.getByText('Home Page')).toHaveAttribute('href', '/')
 })
 
 test("NavBar About Me contains href to /about", () => {
     const screen = render(<Router><NavBar/></Router>)
-    expect(screen.getByRole('link', { name: 'About Me' })).toHaveAttribute('href', '/about')
+    expect(screen.getByText('About Me')).toHaveAttribute('href', '/about')
 })
 
 test("NavBar Work Experience contains href to /workexperience", () => {
     const screen = render(<Router><NavBar/></Router>)
-    expect(screen.getByRole('link', { name: 'Work Experience' })).toHaveAttribute('href', '/workexperience')
+    expect(screen.getByText('Work Experience')).toHaveAttribute('href', '/workexperience')
 })
 
 test("NavBar projects contains href to /projects", () => {
     const screen = render(<Router><NavBar/></Router>)
-    expect(screen.getByRole('link', { name: 'Projects' })).toHaveAttribute('href', '/projects')
+    expect(screen.getByText('Projects')).toHaveAttribute('href', '/projects')
 })
 
 test("NavBar Contacts contains href to /contacts", () => {
     const screen = render(<Router><NavBar/></Router>)
-    expect(screen.getByRole('link', { name: 'Contacts' })).toHaveAttribute('href', '/contacts')
+    expect(screen.getByText('Contacts')).toHaveAttribute('href', '/contacts')
 })

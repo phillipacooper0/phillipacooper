@@ -1,7 +1,7 @@
 import { fireEvent, getByText, render, screen } from '@testing-library/react';
 import CollapsedExcerpt from './CollapsedExcerpt'
 import { MemoryRouter as Router } from 'react-router-dom'; 
-import exampleContent from '../content-test/Project'
+import exampleContent from '../../content-test/Project'
 
 test('CollapsedExcerpt renders successfully', () => {
     render(<Router><CollapsedExcerpt title={exampleContent.title} content={exampleContent.content}/></Router>)
