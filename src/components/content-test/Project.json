@@ -1,0 +1,22 @@
+{
+    "title": "Example Title", 
+    "content": {
+        "dates": "Example Dates",
+        "organisation": "Example Organisation",
+        "skills": [
+            "Skill 1",
+            "Skill 2",
+            "Skill 3"
+        ],
+        "outcomes": [
+            "Outcome 1",
+            "Outcome 2"
+        ],      
+        "responsibilities": [
+            "Responsibility 1",
+            "Responsibility 2",
+            "Responsibility 3"
+        ],
+        "description": "Example description."
+    }
+}

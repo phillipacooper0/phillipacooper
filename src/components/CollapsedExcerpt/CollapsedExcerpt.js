@@ -10,6 +10,7 @@ const CollapsedExcerpt = ({title, content}) => {
   const [responsibilities, setResponsibilities] = useState([])
   const [outcomes, setOutcomes] = useState([])
 
+  const ariaTitle = `Collapsible: ${title}`
 
   useEffect(()=>{
     setSkills(content.skills)
@@ -23,26 +24,23 @@ const CollapsedExcerpt = ({title, content}) => {
     setResponsibilities(content.responsibilities)
   })
 
-
   const toggleContent = () => {
     setIsOpen(prevState => !prevState);  // Toggle the state
   };
 
-
-
     return (
-        <div className={styles.collapsable}>
-            <button className={globalStyles.bold} onClick={toggleContent}>
+        <div className={styles.collapsable} title="collapsible" role="collapsible-content" aria-label={ariaTitle}>
+            <button className={globalStyles.bold} onClick={toggleContent} title="collapsible-button" role="button"  aria-label="collapsible-button">
                 {title} ↓
             </button>
             {isOpen && (
                   <div>
-                      <p className={globalStyles.bold}>{content.organisation}</p>
-                      <p className={globalStyles.italic}> {content.dates} </p>
+                      <p className={globalStyles.bold} title="organisation" aria-label="organisation">{content.organisation}</p>
+                      <p className={globalStyles.italic} title="dates" aria-label="dates"> {content.dates} </p>
                       <div1>Description</div1>
-                      <p>{content.description}</p>
+                      <p title="description" aria-label="description">{content.description}</p>
                       <div1>Key Responsibilities</div1>
-                      <ul>
+                      <ul title="list of responsibilities" aria-label="list of responsibilities">
                           {
                               responsibilities.map((item) => 
                                   <li>{item}</li>
@@ -50,7 +48,7 @@ const CollapsedExcerpt = ({title, content}) => {
                           }
                         </ul>  
                       <div1>Outcomes</div1>
-                        <ul>
+                        <ul title="list of outcomes" aria-label="list of outcomes">
                             {
                                 outcomes.map((item) => 
                                     <li>{item}</li>
@@ -58,7 +56,7 @@ const CollapsedExcerpt = ({title, content}) => {
                             }
                         </ul>  
                       <div1>Skills Used</div1>
-                        <ul>
+                        <ul title="list of skills used" aria-label="list of skills used">
                           {
                               skills.map((item) => 
                                   <li>{item}</li>
@@ -66,12 +64,9 @@ const CollapsedExcerpt = ({title, content}) => {
                           }
                         </ul>  
                    </div>
-                )
-}
+                )}
         </div>
-
     )
-
 }
 
 export default CollapsedExcerpt;
