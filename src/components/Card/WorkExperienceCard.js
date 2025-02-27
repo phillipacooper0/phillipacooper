@@ -8,7 +8,7 @@ const WorkExperienceCard = ({title, content}) => {
 
     useEffect(() => {
         setResponsibilities(content.key_responsibilities)
-    })
+    }, [content.key_responsibilities])
 
 
     return (

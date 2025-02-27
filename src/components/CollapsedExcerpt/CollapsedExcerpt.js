@@ -14,23 +14,23 @@ const CollapsedExcerpt = ({title, content}) => {
 
   useEffect(()=>{
     setSkills(content.skills)
-  })
+  }, [content.skills])
 
   useEffect(()=>{
     setOutcomes(content.outcomes)
-  })
+  }, [content.outcomes])
 
   useEffect(()=>{
     setResponsibilities(content.responsibilities)
-  })
+  }, [content.responsibilities])
 
   const toggleContent = () => {
-    setIsOpen(prevState => !prevState);  // Toggle the state
+    setIsOpen(prevState => !prevState);  
   };
 
     return (
         <div className={styles.collapsable} title="collapsible" role="collapsible-content" aria-label={ariaTitle}>
-            <button className={globalStyles.bold} onClick={toggleContent} title="collapsible-button" role="button"  aria-label="collapsible-button">
+            <button className={globalStyles.bold} onClick={toggleContent} title="collapsible-button"  aria-label="collapsible-button">
                 {title} ↓
             </button>
             {isOpen && (

@@ -3,7 +3,7 @@ import logo from './happy-duck.gif'
 import styles from './Header.module.css'
 import NavBar from "../NavBar/NavBar"
 import linkedInLogo from './linkedin.png'
-import githubLogo from './github.png'
+import githubLogo from '../../content/github.png'
 
 const WebDisplay = () => {
   const redirectToLinkedIn = () =>{

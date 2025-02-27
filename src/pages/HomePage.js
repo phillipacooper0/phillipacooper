@@ -9,7 +9,7 @@ const HomePage = () => {
     return (
             <div className={globalStyles.standard}>
                 <div className={gridStyles.gridbytwocentered}>
-                    <img className={globalStyles.roundimage}src={profilePicture}>
+                    <img className={globalStyles.roundimage}src={profilePicture} title="profile-image" alt="profile-image">
                     </img>
                     <div>
                         <div className={gridStyles.gridbytwocentered}>
