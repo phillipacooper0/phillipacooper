@@ -18,12 +18,12 @@ jobs:
           node-version: '22'
 
       - name: Install dependencies
-        uses: npm install
+        run: npm install
   
       - name: Build the project
-        uses: npm run build
+        run: npm run build
 
       - name: Deploy to Github Pages
-        uses: npm run deploy
+        run: npm run deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
