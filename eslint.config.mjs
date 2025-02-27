@@ -9,9 +9,4 @@ export default [
   {languageOptions: { globals: globals.browser }},
   pluginJs.configs.recommended,
   pluginReact.configs.flat.recommended,
-  {
-    "rules":  {
-      "jsx-a11y/aria-role": 0
-    }
-  }
 ];
