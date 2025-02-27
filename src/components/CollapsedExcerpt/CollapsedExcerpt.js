@@ -10,8 +10,6 @@ const CollapsedExcerpt = ({title, content}) => {
   const [responsibilities, setResponsibilities] = useState([])
   const [outcomes, setOutcomes] = useState([])
 
-  const ariaTitle = `Collapsible: ${title}`
-
   useEffect(()=>{
     setSkills(content.skills)
   }, [content.skills])
@@ -29,7 +27,7 @@ const CollapsedExcerpt = ({title, content}) => {
   };
 
     return (
-        <div className={styles.collapsable} title="collapsible" role="collapsible-content" aria-label={ariaTitle}>
+        <div className={styles.collapsable} title="collapsible" role="collapsible-content" aria-label="collapsible">
             <button className={globalStyles.bold} onClick={toggleContent} title="collapsible-button"  aria-label="collapsible-button">
                 {title} ↓
             </button>
