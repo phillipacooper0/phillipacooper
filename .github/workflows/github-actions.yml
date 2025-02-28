@@ -8,6 +8,9 @@ on:
 jobs: 
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+
     steps:
       - name: Checkout repository 
         uses: actions/checkout@v3
@@ -18,12 +21,18 @@ jobs:
           node-version: '22'
 
       - name: Install dependencies
-        uses: npm install
+        run: npm install
   
       - name: Build the project
-        uses: npm run build
+        run: npm run build
 
       - name: Deploy to Github Pages
-        uses: npm run deploy
+        run: |
+          git config --global user.email "phillipacooper0@gmail.com"
+          git config --global user.name "Phillipa Cooper"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          npm install gh-pages --save-dev  # Ensure 'gh-pages' is installed
+          npm run deploy
+          
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

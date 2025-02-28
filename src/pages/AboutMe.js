@@ -16,22 +16,27 @@ const AboutMe = () => {
 
     useEffect(()=>{
         setLanguages(aboutme.languages)
-    })
+    }, [])
+    
     useEffect(()=>{
         setInfra(aboutme.infrastructure)
-    })
+    }, [])
+
     useEffect(()=>{
         setDatabases(aboutme.databases)
-    })
+    }, [])
+
     useEffect(()=>{
         setNontechnical(aboutme.nonTechnical)
-    })
+    }, [])
+
     useEffect(()=>{
         setOther(aboutme.other)
-    })
+    }, [])
+
     useEffect(() => {
         setEducation(aboutme.education)
-    })
+    }, [])
 
 
     return (
