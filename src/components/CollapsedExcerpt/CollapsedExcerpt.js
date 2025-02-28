@@ -27,7 +27,7 @@ const CollapsedExcerpt = ({title, content}) => {
   };
 
     return (
-        <div className={styles.collapsable} title="collapsible" role="collapsible-content" aria-label="collapsible">
+        <div className={styles.collapsable} title="collapsible" role="region" aria-label="collapsible content">
             <button className={globalStyles.bold} onClick={toggleContent} title="collapsible-button"  aria-label="collapsible-button">
                 {title} ↓
             </button>
