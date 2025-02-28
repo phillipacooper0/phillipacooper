@@ -61,8 +61,10 @@
     .gridbytwocentered {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        align-items: center;
         justify-items: center;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
         padding: 1%;
     }
 
@@ -88,8 +90,4 @@
         background-color: #f9f9f9;
         width: 75%;
       }
-      .gridcard p {
-        margin: 1vh;
-      }
-
   }
