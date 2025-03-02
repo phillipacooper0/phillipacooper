@@ -1,8 +1,8 @@
 .navbar {
 	margin: 0;
 	font-family: 'Playfair Display';
-	background-color: black;
-	color: white;
+	background-color: #e9f4fc;
+	color: black;
 	height: 15vh;
 	display:flex;	
 	align-items: center;
@@ -28,5 +28,5 @@
 	border-bottom: 0.2vh;
 	border-width: 0.1lh;
 	border-top: 0.2vh;
-	border-color: white;
+	border-color: black;
 }
